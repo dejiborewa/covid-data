@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+body, html {
   margin: 0;
   font-family: "Libre Baskerville", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
 code {
